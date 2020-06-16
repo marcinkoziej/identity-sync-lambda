@@ -1,4 +1,9 @@
 import {crypto, service, config} from 'proca_cli'
+import * as Sentry from '@sentry/node';
+
+if (process.env.SENTRY_DSN) {
+  Sentry.init({ dsn: process.env.SENTRY_DSN });
+}
 
 // Handler
 exports.handler = async function(event, context) {

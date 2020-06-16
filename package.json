@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "AGPL",
   "dependencies": {
+    "@sentry/node": "5.17.0",
     "esm": "^3.2.25",
     "proca_cli": "^1.2.0"
   },
