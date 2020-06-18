@@ -2,7 +2,7 @@
   "name": "identity-sync-lambda",
   "version": "1.0.0",
   "description": "Lambda function which synces Actions from Proca-SQS to Identity CRM",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "AGPL",
   "dependencies": {
     "@sentry/node": "5.17.0",
