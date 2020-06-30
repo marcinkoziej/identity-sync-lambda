@@ -1,5 +1,5 @@
 
-const index = require('./index')
+const index = require('../src/index')
 const fs = require('fs')
 
 test('Runs function handler', async () => {

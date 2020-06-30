@@ -1,6 +1,9 @@
 import {crypto, service, config} from 'proca_cli'
 import * as Sentry from '@sentry/node';
 
+Sentry.configureScope((scope) => {
+  scope.setExtra("config", config)
+})
 
 function sentryHandler(lambdaHandler) {
   return async (event, context) => {
@@ -26,6 +29,7 @@ async function identitySync(event, context) {
           })
           .catch((e) => {
             console.error(`Error syncing action to identity ${e}`)
+            console.error('Config:', JSON.stringify(config))
             throw e
           })
     return syncing

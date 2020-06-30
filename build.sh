@@ -11,7 +11,7 @@ fi
 PKG=$(basename $PWD).zip
 
 if [ $mode = all ]; then
-    rm $PKG
+    rm $PKG || true
 
     if [ -e Pipfile ]; then
         pipenv lock -r  > requirements.txt

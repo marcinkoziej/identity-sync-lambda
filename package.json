@@ -7,7 +7,7 @@
   "dependencies": {
     "@sentry/node": "5.17.0",
     "esm": "^3.2.25",
-    "proca_cli": "^1.2.0"
+    "proca_cli": "^1.2.4"
   },
   "devDependencies": {
     "jest": "^26.0.1"

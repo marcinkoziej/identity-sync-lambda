@@ -890,9 +890,9 @@ bcrypt-pbkdf@^1.0.0:
     tweetnacl "^0.14.3"
 
 bent@^7.3.4:
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/bent/-/bent-7.3.4.tgz#5e1dc3cc74469929dbeb5325e9646b7035b3b92b"
-  integrity sha512-Yq3IgfeoxnB+2njT7obA8NPy94l3oAKFjP4l1b0fI0yIWOJLXSpXebHc4TzhqBAS3O3mtVkQ9Po6NcSu5C1zYA==
+  version "7.3.7"
+  resolved "https://registry.yarnpkg.com/bent/-/bent-7.3.7.tgz#6dc42fea1b58c6ebe04146c39aba666f9c13cb0c"
+  integrity sha512-APYx9bkrq3olflUbDeymwmQLQLR39d0Qz/xbvWG3pgKtklrxHvFUHQgEEK4Tp5e0pnvQQCQM7Vdb3SzErmTtZQ==
   dependencies:
     bytesish "^0.4.1"
     caseless "~0.12.0"
@@ -966,9 +966,9 @@ buffer-more-ints@~1.0.0:
   integrity sha512-EMetuGFz5SLsT0QTnXzINh4Ksr+oo4i+UGTXEshiGCQWnsgSs7ZhJ8fzlwQ+OzEMs0MpDAMr1hxnblp5a4vcHg==
 
 bytesish@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/bytesish/-/bytesish-0.4.1.tgz#5fe19b076037ffdfb63e083a53495b1d1c063f6f"
-  integrity sha512-j3l5QmnAbpOfcN/Z2Jcv4poQYfefs8rDdcbc6iEKm+OolvUXAE2APodpWj+DOzqX6Bl5Ys1cQkcIV2/doGvQxg==
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/bytesish/-/bytesish-0.4.2.tgz#99c2e7c392dcd57b48e01650753aca2bc3ac9fb7"
+  integrity sha512-ym4cXhq28K7uhYZUEOl17LuqsqKSphDsZcfAKmEa/HcCsCqHMQXOiFuWx1OnbktJux/qKK1W9Xt9uU5kLIKypQ==
 
 cache-base@^1.0.1:
   version "1.0.1"
@@ -2935,10 +2935,10 @@ pretty-format@^26.0.1:
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
 
-proca_cli@^1.2.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/proca_cli/-/proca_cli-1.2.1.tgz#6d7d912ee029779d4b3d05e6f08b896aeadf3a0c"
-  integrity sha512-eFj989MApaclSbfnpjTIONmBkcsCFgdCkx7jw/BABakplWKywcU+T4Nt1zw6JXFW3YS39UmnEEbjVvCsm9zT6A==
+proca_cli@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/proca_cli/-/proca_cli-1.2.4.tgz#b603b25ce95e6333542135cf29a1ca7816b17ef8"
+  integrity sha512-CmlSL0B4wtTnK9J3zs8zaF2RJZPN7hcV2wMpVCTT2Cq9IJTDW87+78msWql0v8ehZeFthk81O3mXCKziu/jTjw==
   dependencies:
     amqplib "^0.5.6"
     backoff "^2.5.0"
