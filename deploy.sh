@@ -2,7 +2,7 @@
 set -u
 set -e
 
-BUCKET=$2
+BUCKET=${2:-}
 
 if [ $# -gt 0 ]; then
     PKG=$(basename $PWD).zip
